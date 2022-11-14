@@ -1,11 +1,50 @@
-body {background-color: #641E16;}
+body {background-color: white;
+      background-image: url(../img/fondo11.png);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: ;
+      text-align: ;}
 
+nav {width: 82.5%;}
+
+header {width: 82.5%;}
+
+section {width: 82.5%;}
+
+aside {background: rgba(255, 255, 255, .5);
+      float: right;
+      background-repeat: repeat;
+      position: fixed;
+      bottom: 0px;
+      right: 10px;
+      top: 0px;
+      width: 17%;}
+
+
+footer {background-color: white;
+        opacity: .8;
+        width: 82.5%;
+        height: 70px}
+
+.whats {width: 50px;
+        position: fixed;
+        bottom: 10px;
+        right: 244px}
+.fuentelink {font-family: time;}
+.fuentehelve {font-family: helvetica}
 .colorblanco {color: #F4F6F7;}
 .colorrojo {color: #E74C3C;}
 .colorazul {color: #2980B9;}
-.tamañotitulo40 {font-size: 40px}
-.tamañotitulo35 {font-size: 35px}
+.colornegro {color: black;}
+.tamañotitulo40 {font-size: 40px;}
+.tamañotitulo35 {font-size: 35px;}
+.tamañotitulo30 {font-size: 30px;}
+.tamañotitulo20 {font-size: 20px;}
 .enelmedio {text-align: center;}
 .subrayado {text-decoration: underline;}
-.tamañoimg {max-height: 200px;}
-.fondotxblanco {background: #F4F6F7;}
+.tamañoimg {max-height: 180px;}
+.fondotxblanco {background: rgba(255, 255, 255, .5)}
+.fondotxnegro {background: black;}
+.fondotxtra {background-color: white;
+            filter:alpha(opacity=70);
+            -moz-opacity:.70;opacity:.70}
