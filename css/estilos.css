@@ -14,8 +14,9 @@
 body {background-color: white;
       background-image: url(../img/fondo12.png);
       background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-position: ;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
       text-align: ;}
 
 header {background-color: white;
