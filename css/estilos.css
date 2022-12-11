@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Vinyl&display=swap');
+
+@import url( 'https://fonts.googleapis.com/css2?familia=Langosta&familia=Rubik+Spray+Paint&familia=Rubik+Vinilo&mostrar=swap ');
+
+@import url('https://fonts.googleapis.com/css2?familia=Langosta&mostrar=swap');
+
+@import url( 'https://fonts.googleapis.com/css2?familia=Langosta&familia=Rubik+Vinilo&mostrar=swap ');
+
+@font-face {
+    font-family: "letranueva";
+    src: url("../fuentes/trebuc.ttf") format('truetype');
+}
+
 body {background-color: white;
       background-image: url(../img/fondo12.png);
       background-repeat: no-repeat;
@@ -6,23 +19,45 @@ body {background-color: white;
       text-align: ;}
 
 header {background-color: white;
-        width: 82.5%;
-        height: 200px;
+        width: 80vw;
+        height: 30vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         justify-content: space-around;
-        align-items: center;}
+        align-items: center;
+        font-family: 'Lobster', cursive;
+}
 
-nav {width: 82.5%;
-    height: 50px;
+nav {width: 80vw;
+    height: 30vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    justify-content: space-around;
-    align-items: center;}
+  }
+
+.linknav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+    }
+
+a{
+  color: #000;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover {
+  color: #1717FF;
+  cursor: pointer;
+}
 
 
-section {width: 82.5%;
+section {width: 80vw;
+        height: 70vh;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -35,7 +70,8 @@ aside {background: rgba(255, 255, 255, .5);
       bottom: 0px;
       right: 10px;
       top: 0px;
-      width: 17%;
+      width: 17vw;
+      height: 100vh;
       display: flex;
       justify-content: center;
       justify-content: space-around;
@@ -44,25 +80,39 @@ aside {background: rgba(255, 255, 255, .5);
 
 
 footer {background-color: white;
-        width: 82.5%;
-        height: 100px;
+        width: 80vw;
+        height: 30vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         justify-content: space-around;
         align-items: center;}
 
+.otra{
+  font-family: 'Rubik Spray Paint', cursiva;
+}
+
+.nuevale{
+  font-family: 'Rubik Vinyl', cursivo;
+}
+
+.letragoogle{
+  font-family: 'Lobster', cursive;
+}
+
+
 .redes{display: flex;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
+  width: 15%;
 }
 .tit2 {width: 82.5%}
-.whats {width: 50px;
+.whats {width: 8vh;
         position: fixed;
-        bottom: 10px;
-        right: 244px}
-.fuentelink {font-family: time;}
+        bottom: 1vh;
+        right: 38vh}
+.fuentelink {font-family: fantasy;}
 .fuentehelve {font-family: helvetica}
 .colorblanco {color: #F4F6F7;}
 .colorrojo {color: #E74C3C;}
