@@ -84,6 +84,7 @@ aside {background: rgba(255, 255, 255, .5);
 footer {background-color: white;
         width: 80%;
         height: 30%;
+        margin: 20px 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -109,12 +110,6 @@ footer {background-color: white;
 }
 
 
-.redes{display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  align-items: center;
-  width: 15%;
-}
 .tit2 {width: 82.5%}
 .whats {width: 8vh;
         position: fixed;
